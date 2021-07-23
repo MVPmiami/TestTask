@@ -1,0 +1,114 @@
+$fontSizeHeader: 14px;
+
+.contacts{
+  width: 100%;
+  height: 220px;
+  background-color: #3e4149;
+  position: relative;
+}
+
+.contacts-header {
+  text-align: right;
+  padding-right: 30px;
+  font-weight: 400;
+  color: #f7d0b1;
+}
+
+.phone{
+  width: 300px;
+  height: 50px;
+  position: relative;
+  top: 4px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  &-data {
+    color: #f0eff2;
+    margin-right: 10px;
+
+    &-header {
+      font-size: $fontSizeHeader;
+    }
+  
+    &-number {
+      font-size: 14px;
+    }
+  }
+
+  &-ico {
+    width: 28px;
+    height: 28px;
+    background-image: url('./../img/phone32.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 30px;
+  }
+}
+
+.email{
+  width: 300px;
+  height: 50px;
+  position: relative;
+  top: 4px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  &-data {
+    color: #f0eff2;
+    margin-right: 10px;
+
+    &-header {
+      font-size: $fontSizeHeader;
+    }
+  
+    &-mail {
+      font-size: 14px;
+    }
+  }
+
+  &-ico {
+    width: 28px;
+    height: 28px;
+    background-image: url('./../img/mail32.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 30px;
+  }
+}
+
+.telegram{
+  width: 300px;
+  height: 50px;
+  position: relative;
+  top: 4px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  &-data {
+    color: #f0eff2;
+    margin-right: 10px;
+
+    &-header {
+      font-size: $fontSizeHeader;
+    }
+  
+    &-telega {
+      font-size: 14px;
+    }
+  }
+
+  &-ico {
+    width: 28px;
+    height: 28px;
+    background-image: url('./../img/telegram32.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 30px;
+  }
+}

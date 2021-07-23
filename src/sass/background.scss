@@ -1,0 +1,24 @@
+.wrapper-page{
+  background-image: url('./../img/bcg1920.jpg');
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #464646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1441px) {
+  .wrapper-page{
+      background-image: url('./../img/bcg1920.jpg');
+  }
+}
+@media (max-width: 1440px) {
+  .wrapper-page{
+      background-image: url('./../img/bcg1200.jpg');
+  }
+}
