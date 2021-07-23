@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import './background.scss';
+@import './wrapperCV.scss';
+@import './header.scss';
+@import './contacts.scss';
+@import './skills.scss';
+@import './education.scss';
+
 *{
     margin: 0;
     padding: 0;
 }
 
-.block{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(34, 221, 59);
-    h2{
-        font-size: 33px;
-        color: rgb(194, 81, 29);
-    }
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', serif;
 }
