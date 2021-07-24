@@ -112,3 +112,79 @@ $fontSizeHeader: 14px;
     margin-right: 30px;
   }
 }
+
+
+@media (max-width: 1440px ) and (max-height: 900px) {
+
+  .contacts{
+    height: 260px;
+  }
+
+  .contacts-header {
+    font-size: 110%;
+  }
+
+  .phone{
+
+    height: 40px;
+
+    &-data {
+  
+      &-header {
+        font-size: 80%;
+      }
+    
+      &-number {
+        font-size: 80%;
+      }
+    }
+  
+    &-ico {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .email{
+
+    height: 40px;
+
+    &-data {
+  
+      &-header {
+        font-size: 80%;
+      }
+    
+      &-mail {
+        font-size: 80%;
+      }
+    }
+  
+    &-ico {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .telegram{
+
+    height: 40px;
+
+    &-data {
+  
+      &-header {
+        font-size: 80%;
+      }
+    
+      &-telega {
+        font-size: 80%;
+      }
+    }
+  
+    &-ico {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+}
