@@ -139,9 +139,9 @@ $skill-list-position: 60px;
 
 @media only screen  and (min-width: 1000px) {
 
-  $sizeIcons: 40px;
-  $marginIcons: 12px;
-  $skill-list-position: 35px;
+  $sizeIcons: 36px;
+  $marginIcons: 11px 14px ;
+  $skill-list-position: 25px;
   
   .skills{
 
@@ -242,9 +242,9 @@ $skill-list-position: 60px;
 }
 
 @media only screen  and (min-width: 1824px) {
-  $sizeIcons: 48px;
-  $marginIcons: 7px;
-  $skill-list-position: 60px;
+  $sizeIcons: 46px;
+  $marginIcons: 4px 9px;
+  $skill-list-position: 50px;
 
 .skills{
   width: 100%;
