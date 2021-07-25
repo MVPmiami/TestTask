@@ -1,4 +1,383 @@
+$sizeIcons: 48px;
+$marginIcons: 7px;
+$skill-list-position: 60px;
+
 .skills{
   width: 100%;
-  height: 300px;
+  min-height: 168px;
+  height: calc(100% - 150px - 165px);
+  background-color: #3e4149;
+  position: relative;
+
+  &-header{
+    color: #f7d0b1;
+    text-align: right;
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  &-list{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: $skill-list-position;
+
+    &-html{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/html64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-css{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/css64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-js{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/js64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-ts{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/ts64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-sass{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/sass64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-react{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/react64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-redux{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/redux64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-webpack{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/webpack64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-git{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/git64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-mongo{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/mongo64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-firebase{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/firebase64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-webGl{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/webGl64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+  }
+
+}
+
+@media only screen  and (min-width: 1000px) {
+
+  $sizeIcons: 40px;
+  $marginIcons: 12px;
+  $skill-list-position: 35px;
+  
+  .skills{
+
+    min-height: 168px;
+    height: calc(100% - 150px - 165px);
+  
+    &-header{
+
+      padding-right: 30px;
+      font-size: 18px;
+
+    }
+  
+    &-list{
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      position: absolute;
+      top: $skill-list-position;
+  
+      &-html{
+        width: $sizeIcons;
+        height: $sizeIcons;
+        margin: $marginIcons;
+      }
+  
+      &-css{
+        width: $sizeIcons;
+        height: $sizeIcons;
+        margin: $marginIcons;
+      }
+  
+      &-js{
+        width: $sizeIcons;
+        height: $sizeIcons;
+        margin: $marginIcons;
+      }
+  
+      &-ts{
+        width: $sizeIcons;
+        height: $sizeIcons;
+        margin: $marginIcons;
+      }
+  
+      &-sass{
+        width: $sizeIcons;
+        height: $sizeIcons;
+        margin: $marginIcons;
+      }
+  
+      &-react{
+        width: $sizeIcons;
+        height: $sizeIcons;
+        margin: $marginIcons;
+      }
+  
+      &-redux{
+        width: $sizeIcons;
+        height: $sizeIcons;
+        margin: $marginIcons;
+      }
+  
+      &-webpack{
+        width: $sizeIcons;
+        height: $sizeIcons;
+        margin: $marginIcons;
+      }
+  
+      &-git{
+        width: $sizeIcons;
+        height: $sizeIcons;
+        margin: $marginIcons;
+      }
+  
+      &-mongo{
+        width: $sizeIcons;
+        height: $sizeIcons;
+        margin: $marginIcons;
+      }
+  
+      &-firebase{
+        width: $sizeIcons;
+        height: $sizeIcons;
+        margin: $marginIcons;
+      }
+  
+      &-webGl{
+        width: $sizeIcons;
+        height: $sizeIcons;
+        margin: $marginIcons;
+      }
+    }
+  
+  }
+ 
+}
+
+@media only screen  and (min-width: 1824px) {
+  $sizeIcons: 48px;
+  $marginIcons: 7px;
+  $skill-list-position: 60px;
+
+.skills{
+  width: 100%;
+  min-height: 168px;
+  height: calc(100% - 150px - 165px);
+  background-color: #3e4149;
+  position: relative;
+
+  &-header{
+    color: #f7d0b1;
+    text-align: right;
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  &-list{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: $skill-list-position;
+
+    &-html{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/html64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-css{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/css64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-js{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/js64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-ts{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/ts64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-sass{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/sass64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-react{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/react64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-redux{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/redux64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-webpack{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/webpack64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-git{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/git64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-mongo{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/mongo64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-firebase{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/firebase64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+
+    &-webGl{
+      width: $sizeIcons;
+      height: $sizeIcons;
+      background-image: url('./../img/webGl64.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: $marginIcons;
+    }
+  }
+
+}
 }
