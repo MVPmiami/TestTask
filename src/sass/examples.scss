@@ -3,6 +3,17 @@
   height: calc(100% - 30px);
 }
 
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #3e4149;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f0eff2;
+}
+
 .examples-of-works{
   width: 100%;
   height: 100%;
