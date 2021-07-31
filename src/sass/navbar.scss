@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    height: 50px;
+    height: 40px;
 }
 
 .buttons{
@@ -66,6 +66,6 @@
 
 @media only screen  and (min-width: 1824px) {
     .nav{
-        height: 50px;
-    }  
+        height: 40px;
+    }
 }
