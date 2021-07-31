@@ -1,0 +1,19 @@
+.content{
+  position: relative;
+}
+
+.examples-of-works{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 10px;
+  background-color: #e4e2de;
+}
+
+.show-content{
+  z-index: 1;
+}
+
+.hide-content{
+  z-index: -1;
+}

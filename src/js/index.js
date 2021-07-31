@@ -1,3 +1,4 @@
 import '../sass/style.scss';
+import toggle from './toggle.js';
 
-console.log('hi')
+toggle();

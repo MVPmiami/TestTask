@@ -16,7 +16,17 @@
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/style.scss */ \"./src/sass/style.scss\");\n\nconsole.log('hi');\n\n//# sourceURL=webpack://testSass/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/style.scss */ \"./src/sass/style.scss\");\n/* harmony import */ var _toggle_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./toggle.js */ \"./src/js/toggle.js\");\n\n\n(0,_toggle_js__WEBPACK_IMPORTED_MODULE_1__.default)();\n\n//# sourceURL=webpack://testSass/./src/js/index.js?");
+
+/***/ }),
+
+/***/ "./src/js/toggle.js":
+/*!**************************!*\
+  !*** ./src/js/toggle.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction toggle() {\n  var aboutMeBtn = document.querySelector('.about-me-button');\n  var examplesBtn = document.querySelector('.examples-button');\n  var aboutMeText = document.querySelector('.about-me-text');\n  var examples = document.querySelector('.examples-of-works');\n  aboutMeBtn.addEventListener('mouseup', function () {\n    aboutMeBtn.classList.forEach(function (elem) {\n      if (elem === 'inactive-button') {\n        changeStyles(aboutMeBtn, examplesBtn, aboutMeText, examples);\n      }\n    });\n  });\n  examplesBtn.addEventListener('mouseup', function () {\n    examplesBtn.classList.forEach(function (elem) {\n      if (elem === 'inactive-button') {\n        changeStyles(aboutMeBtn, examplesBtn, aboutMeText, examples);\n      }\n    });\n  });\n}\n\nfunction changeStyles(aboutMeBtn, examplesBtn, aboutMeText, examples) {\n  aboutMeText.classList.toggle('show-content');\n  aboutMeText.classList.toggle('hide-content');\n  examples.classList.toggle('show-content');\n  examples.classList.toggle('hide-content');\n  examplesBtn.classList.toggle('inactive-button');\n  examplesBtn.classList.toggle('active-button');\n  aboutMeBtn.classList.toggle('active-button');\n  aboutMeBtn.classList.toggle('inactive-button');\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (toggle);\n\n//# sourceURL=webpack://testSass/./src/js/toggle.js?");
 
 /***/ }),
 
@@ -57,6 +67,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	(() => {
 /******/ 		// define __esModule on exports
