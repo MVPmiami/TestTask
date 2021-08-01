@@ -59,13 +59,13 @@
     color: #000000;
 }
 
-@media only screen  and (min-width: 1000px) {
+@media only screen  and (min-width: 1000px) and (min-height: 768px) {
     .nav{
         height: 30px;
     }
 }
 
-@media only screen  and (min-width: 1824px) {
+@media only screen  and (min-width: 1900px) and (min-height: 930px) {
     .nav{
         height: 40px;
     }

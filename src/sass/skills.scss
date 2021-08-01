@@ -137,7 +137,7 @@ $skill-list-position: 60px;
 
 }
 
-@media only screen  and (min-width: 1000px) {
+@media only screen  and (min-width: 1000px) and (min-height: 768px) {
 
   $sizeIcons: 36px;
   $marginIcons: 11px 14px ;
@@ -241,7 +241,7 @@ $skill-list-position: 60px;
  
 }
 
-@media only screen  and (min-width: 1824px) {
+@media only screen  and (min-width: 1900px) and (min-height: 930px) {
   $sizeIcons: 46px;
   $marginIcons: 4px 9px;
   $skill-list-position: 50px;

@@ -115,7 +115,7 @@ $positionContactsTop: 4px;
   }
 }
 
-@media only screen  and (min-width: 1000px) {
+@media only screen  and (min-width: 1000px) and (min-height: 768px) {
 
   .contacts{
     min-height: 150px;;
@@ -191,7 +191,7 @@ $positionContactsTop: 4px;
 
 }
 
-@media only screen  and (min-width: 1824px) {
+@media only screen  and (min-width: 1900px) and (min-height: 930px) {
 
   .contacts{
     width: 100%;
