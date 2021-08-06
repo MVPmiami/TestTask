@@ -50,6 +50,11 @@
 
   .header {
 
+    &-avatar{
+      background-image: url('./../img/avatar2.jpg');
+      background-position-y: -10px;
+    }
+
     &-preview {
 
       &-name{
