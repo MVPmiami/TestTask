@@ -57,3 +57,38 @@ input[type="text"] {
   background-position-x: 557px;
   background-position-y: 15px;
 }
+
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62px;
+  width: 100%;
+
+  & ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+
+      & li {
+          width: 130px;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          cursor: pointer;
+
+          &:hover{
+              background-color: #E69A37;
+              color: #ffffff;
+          }
+      }
+  }
+}
+
+.news{
+  background-color: #323232;
+  color: #ffffff;
+}
