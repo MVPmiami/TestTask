@@ -1,3 +1,10 @@
+@font-face { 
+  font-family: "MuseoSansCyrl300";
+  src: url("./../fonts/MuseoSansCyrl300.ttf");
+  src: url("./../fonts/MuseoSansCyrl700.ttf");
+  font-style: normal;
+}
+
 .wrapper-content{
   height: 670px;
   width: 100vw;
@@ -26,6 +33,7 @@
     background-color: #E69A37;
     color: #ffffff;
     margin-bottom: 20px;
+    font-weight: 700;
   }
 
   &-header{
@@ -33,21 +41,19 @@
     flex-flow: row wrap;
     width: 570px;
     color: #ffffff;
-    font-style: normal;
-    font-weight: bold;
     font-size: 60px;
     line-height: 68px;
     margin-bottom: 20px;
+    font-weight: 700;
   }
 
   &-info{
     width: 711px;
     color: #ffffff;
-    font-style: normal;
-    font-weight: normal;
     font-size: 22px;
     line-height: 28px;
     margin-top: 20px;
+    font-weight: 300;
   }
 }
 

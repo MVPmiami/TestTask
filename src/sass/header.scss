@@ -1,3 +1,10 @@
+@font-face { 
+  font-family: "MuseoSansCyrl300";
+  src: url("./../fonts/MuseoSansCyrl300.ttf");
+  src: url("./../fonts/MuseoSansCyrl700.ttf");
+  font-style: normal;
+}
+
 .logo-plus-search{
   display: flex;
   justify-content: space-between;
@@ -38,7 +45,7 @@
   &-description{
     color: #323232;
     font-size: 14.45px;
-    font-weight: 400;
+    font-weight: 300;
   }
 }
 
@@ -50,6 +57,7 @@ input[type="text"] {
   width: 557px;
   color: #000000;
   font-size: 16px;
+  font-family: "MuseoSansCyrl300";
   padding: 15px 20px;
   background-image: url('./../img/search.svg');
   background-size: 4%;
@@ -64,6 +72,8 @@ input[type="text"] {
   align-items: center;
   height: 62px;
   width: 100%;
+  font-family: "MuseoSansCyrl300";
+  font-weight: 300;
 
   & ul{
       display: flex;

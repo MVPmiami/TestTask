@@ -1,0 +1,78 @@
+@font-face { 
+  font-family: "MuseoSansCyrl300";
+  src: url("./../fonts/MuseoSansCyrl300.ttf");
+  font-style: normal;
+}
+
+footer{
+  height: 120px;
+  font-family: "MuseoSansCyrl300";
+  font-weight: 300;
+}
+
+.services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 234px;
+    height: 120px;
+
+    &:hover{
+      cursor: pointer;
+      background-color: #F3F3F3;
+      text-decoration: underline;
+    }
+
+    &-img1{
+      width: 50px;
+      height: 50px;
+      background-image: url('./../img/ic_1.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &-img2{
+      width: 50px;
+      height: 50px;
+      background-image: url('./../img/ic_2.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &-img3{
+      width: 50px;
+      height: 50px;
+      background-image: url('./../img/ic_3.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &-img4{
+      width: 50px;
+      height: 50px;
+      background-image: url('./../img/ic_4.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &-img5{
+      width: 50px;
+      height: 50px;
+      background-image: url('./../img/ic_5.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &-description{
+      width: 156px;
+      color: #323232;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
