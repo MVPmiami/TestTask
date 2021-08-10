@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 @import './header.scss';
+@import './content.scss';
 
 
 *{
@@ -16,6 +17,7 @@ body{
 
 .container{
     width: 1170px;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -26,39 +28,4 @@ body{
     opacity: .15;
     position: relative;
     left: -1500px;
-}
-
-.nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 62px;
-    width: 100%;
-
-    & ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-
-        & li {
-            width: 130px;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-decoration: none;
-            cursor: pointer;
-
-            &:hover{
-                background-color: #E69A37;
-                color: #ffffff;
-            }
-        }
-    }
-}
-
-.news{
-    background-color: #323232;
-    color: #ffffff;
 }
