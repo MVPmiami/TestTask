@@ -19,7 +19,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 234px;
+    width: 20%;
     height: 120px;
 
     &:hover{
@@ -69,10 +69,37 @@ footer{
     }
 
     &-description{
-      width: 156px;
+      width: calc(80% - 50px);
       color: #323232;
       font-size: 14px;
       line-height: 20px;
     }
+  }
+}
+
+
+@media (max-width: 991px) {
+
+  .services-item{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-item-description{
+    text-align: left;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .services-item-description{
+    width: calc(142% - 50px);
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .services-item-description{
+    width: calc(142% - 50px);
+    text-align: center;
   }
 }

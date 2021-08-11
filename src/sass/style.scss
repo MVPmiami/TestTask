@@ -19,16 +19,50 @@
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
     overflow-x: hidden;
     font-family: "MuseoSansCyrl300";
 }
 
 .container{
-    width: 1170px;
+    max-width: 1200px;
     height: 100%;
     margin: 0 auto;
+}
+
+@media (min-width: 1400px) {
+    .container{
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .container{
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .container{
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container{
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .container{
+        max-width: 560px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container{
+        max-width: none;
+    }
 }
 
 .line{
