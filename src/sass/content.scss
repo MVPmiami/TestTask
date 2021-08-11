@@ -39,7 +39,7 @@
   &-header{
     display: flex;
     flex-flow: row wrap;
-    width: 570px;
+    width: 44%;
     color: #ffffff;
     font-size: 60px;
     line-height: 68px;
@@ -48,7 +48,7 @@
   }
 
   &-info{
-    width: 711px;
+    width: 54%;
     color: #ffffff;
     font-size: 22px;
     line-height: 28px;
@@ -82,4 +82,55 @@
 .active{
   background-color: #E69A37;
   border:1px solid #E69A37; ;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .content-text{
+
+    &-competition{
+      width: 180px;
+      height: 35px;
+      font-size: 14px;
+    }
+  
+    &-header{
+      width: 44%;
+      color: #ffffff;
+      font-size: 50px;
+      line-height: 48px;
+    }
+  
+    &-info{
+      width: 54%;
+      color: #ffffff;
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+}
+
+
+@media (max-width: 575px) {
+  .content-text{
+
+    &-competition{
+      width: 180px;
+      height: 35px;
+      font-size: 14px;
+    }
+  
+    &-header{
+      width: 44%;
+      color: #ffffff;
+      font-size: 50px;
+      line-height: 48px;
+    }
+  
+    &-info{
+      width: 54%;
+      color: #ffffff;
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
 }
