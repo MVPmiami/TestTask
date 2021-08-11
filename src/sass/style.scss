@@ -19,11 +19,13 @@
 }
 
 html{
+    position: relative;
     overflow-x: hidden;
 }
 
 body{
     overflow-x: hidden;
+    position: relative;
     font-family: "MuseoSansCyrl300";
 }
 
