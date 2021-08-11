@@ -209,7 +209,7 @@ input[type="text"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30%;
+    height:50%;
     width: 100%;
     position: absolute;
     background-color: #f3efea;
@@ -261,9 +261,5 @@ input[type="text"] {
 
   .burger-active{
     transition: all .5s ease 0s;
-  }
-
-  .line-bottom{
-    margin-bottom: 40px;
   }
 }
