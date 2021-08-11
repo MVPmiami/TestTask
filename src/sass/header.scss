@@ -160,19 +160,6 @@ input[type="text"] {
     width: 32%;
   }
 
-  /*.nav ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 30%;
-    width: 100%;
-    position: absolute;
-    background-color: #f3efea;
-    top: 0;
-    left: 0;
-  }*/
-
   .nav{
     display: none;
   }
@@ -213,6 +200,10 @@ input[type="text"] {
     }
   }
 
+  .burger:hover{
+    cursor: pointer;
+  }
+
   .burger-list{
     display: flex;
     flex-direction: column;
@@ -224,7 +215,7 @@ input[type="text"] {
     background-color: #f3efea;
     top: -100%;
     left: 0;
-    transition: .3s ease-in-out;
+    transition: all 1s ease 0s;
 
     & ul{
       list-style: none;
@@ -245,13 +236,34 @@ input[type="text"] {
     }
   }
 
+  .burger.burger-active::before{
+    transform: rotate(45deg);
+    top: 10px;
+    transition: all .5s ease 0s;
+  }
+
+  .burger.burger-active::after{
+    transform: rotate(-45deg);
+    top: 10px;
+    transition: all .5s ease 0s;
+  }
+
+  .burger.burger-active span{
+    display: none;
+    transition: all .5s ease 0s;
+  }
+
+
   .burger-list-active{
     top: 0px;
-    transition: .5s ease-in-out;
+    transition: all .5s ease 0s;
   }
 
   .burger-active{
-    transition: .5s ease-in-out;
+    transition: all .5s ease 0s;
   }
 
+  .line-bottom{
+    margin-bottom: 40px;
+  }
 }

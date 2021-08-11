@@ -112,7 +112,11 @@
 
 @media (max-width: 575px) {
   .content-text{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     &-competition{
       width: 180px;
       height: 35px;
@@ -120,14 +124,15 @@
     }
   
     &-header{
-      width: 44%;
+      width: 82%;
       color: #ffffff;
-      font-size: 50px;
-      line-height: 48px;
+      font-size: 30px;
+      line-height: 38px;
+      text-align: center;
     }
   
     &-info{
-      width: 54%;
+      width: 90%;
       color: #ffffff;
       font-size: 20px;
       line-height: 25px;
