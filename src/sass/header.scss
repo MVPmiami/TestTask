@@ -220,11 +220,16 @@ input[type="text"] {
     & ul{
       list-style: none;
       text-align: center;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     & ul li {
       font-size: 20px;
-      width: 120%;
+      width: 40%;
       height: 22px;
       padding: 5px 5px;
       cursor: pointer;
